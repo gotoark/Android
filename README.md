@@ -8,3 +8,5 @@
 
 ## Detect Screen Shot ##
 - Detect Screen shots Like Whatsapp and Snapshots
+- by the help of FileObserver
+

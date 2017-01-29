@@ -1,4 +1,4 @@
 # My Android Test Apps
-*Button Clikc
-*Admob
-*Detect Screen Shot
+Button Click
+Admob
+Detect Screen Shot

@@ -1,0 +1,10 @@
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_list_items"
+    android:layout_width="match_parent"
+    android:textColor="@color/colorAccent"
+    android:layout_height="wrap_content"
+    android:text="RAJ"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall" />

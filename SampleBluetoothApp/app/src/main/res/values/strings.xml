@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SampleBluetoothApp</string>
+    <string name="alettitle">Need Permission</string>
+</resources>

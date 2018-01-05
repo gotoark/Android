@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="16"
+    android:background="@color/colorPrimary"
+    android:padding="5dp"
+    >
+
+
+    <!--<ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/farming" /> -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="@color/cardview_light_background"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        app:cardCornerRadius="4dp"
+
+        app:cardUseCompatPadding="true">
+        <TextView
+            android:id="@+id/Booking_Home_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0sp"
+            android:layout_weight="4"
+            android:orientation="horizontal">
+            <android.support.v7.widget.CardView
+                android:id="@+id/btn_health"
+                app:cardBackgroundColor="@color/colorTopLeft"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/btn_bankingissues"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Sports"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorText"
+                    />
+
+                <TextView
+                    android:id="@+id/bookingresult"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="#ffffff"
+                    tools:text="0"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+
+                    />
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/btn_news"
+                app:cardBackgroundColor="@color/colorTopRight"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/requestresulttext"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="#ffffff"
+                    tools:text="0"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:textColor="@color/colorText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_gravity="center"
+                    android:text="News"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:id="@+id/btn_customerissues"
+                    />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0sp"
+            android:layout_weight="4"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/btn_entertainment"
+                    app:cardBackgroundColor="@color/colorDownLeft"
+                    android:layout_width="0sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardUseCompatPadding="true">
+
+
+                    <TextView
+                        android:id="@+id/confirmedresulttext"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="right"
+                        android:textColor="#ffffff"
+                        tools:text="0"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:textColor="@color/colorText"
+                        android:id="@+id/btn_depositissues"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:text="Entertainment"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/btn_travel"
+                app:cardBackgroundColor="@color/colorDownRight"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardUseCompatPadding="true">
+
+
+                <TextView
+                    android:id="@+id/canceledresult"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="right"
+                    android:textColor="#ffffff"
+                    tools:text="0"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+                <TextView
+                    android:textColor="@color/colorText"
+                    android:id="@+id/btn_mobankingissues"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="travel"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    />
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

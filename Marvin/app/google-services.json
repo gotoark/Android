@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "812778686147",
+    "firebase_url": "https://marvin-66c86.firebaseio.com",
+    "project_id": "marvin-66c86",
+    "storage_bucket": "marvin-66c86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812778686147:android:4176b71f0a48b9b9",
+        "android_client_info": {
+          "package_name": "thinkers.com.marvin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812778686147-i0g41pkthc6rua3uncd7jcokogoebl9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCalI5yPSNW81aDTSnWxr6tCE9Jalzf5wg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

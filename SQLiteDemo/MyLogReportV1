@@ -1,0 +1,8 @@
+11-24 02:06:54.806 25641-25641/arkthepro.com.sqlitedemo V/BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@341be72
+11-24 02:06:54.806 25641-25641/arkthepro.com.sqlitedemo V/BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@93102c3
+11-24 02:06:54.813 25641-25641/arkthepro.com.sqlitedemo D/------LOG-: Inserting---------------------
+11-24 02:06:54.851 25641-25641/arkthepro.com.sqlitedemo D/------LOG-: ReadingContacts---------------------
+11-24 02:06:54.854 25641-25641/arkthepro.com.sqlitedemo D/------LOG-: User Information: ID :1Name :RajeshNumber :9876543210
+11-24 02:06:54.854 25641-25641/arkthepro.com.sqlitedemo D/------LOG-: User Information: ID :2Name :ShangeethNumber :91234567890
+11-24 02:06:54.854 25641-25641/arkthepro.com.sqlitedemo D/------LOG-: User Information: ID :3Name :SivaBarathyNumber :9988776655
+11-24 02:06:54.854 25641-25641/arkthepro.com.sqlitedemo D/------LOG-: User Information: ID :4Name :RagavanNumber :9113344500

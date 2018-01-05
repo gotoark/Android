@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="application.arkthepro.com.soapdemo.SoapCallWithAsynTask">
+
+    <EditText
+        android:id="@+id/et_param1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="27dp"
+        android:enabled="false"
+        android:hint="Parameter 1"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup_SoapType" />
+
+    <EditText
+        android:id="@+id/et_param2"
+        android:layout_width="127dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="17dp"
+        android:enabled="false"
+        android:hint="Parameter 2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/et_param1"
+        app:layout_constraintRight_toLeftOf="@+id/et_param3"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup_SoapType" />
+
+    <EditText
+        android:id="@+id/et_param3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="25dp"
+        android:enabled="false"
+        android:hint="Parameter 3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup_SoapType" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="21dp"
+        android:text="GET SOAP"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_param1" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="369dp"
+        android:layout_height="185dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_result"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="7dp"
+        android:text="Select Type of SOAP CALL"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup_SoapType"
+        android:layout_width="363dp"
+        android:layout_height="131dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="-9dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/rb_GetCountriesAvailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="GetCountriesAvailable (No parameters)" />
+
+        <RadioButton
+            android:id="@+id/rb_GetHolidaysAvailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GetHolidaysAvailable (countryCode)" />
+
+        <RadioButton
+            android:id="@+id/rb_GetHolidaysForYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GetHolidaysForYear (countryCode,year)" />
+
+        <RadioButton
+            android:id="@+id/rb_GetHolidayDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GetHolidayDate (country,holidayCode,Year)" />
+
+
+    </RadioGroup>
+</android.support.constraint.ConstraintLayout>
